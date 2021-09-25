@@ -7,15 +7,16 @@ print("******************************** This game has 5 rounds *****************
 print("Enter 'r' for 'Rock', 'p' for 'Paper' and 's' for 'Scissors'")
 
 
-result_user = []
-result_comp = []
-comp_choice = ['r', 'p', 's']
+
 
 
 ask = "y"
 
 while(ask == "y"):
     
+    result_user = []
+    result_comp = []
+    comp_choice = ['r', 'p', 's']
     count = 1
 
     while(count <= 5):
